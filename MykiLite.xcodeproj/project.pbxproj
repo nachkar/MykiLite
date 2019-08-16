@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46650F742306935E0084A95B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46650F732306935E0084A95B /* AppDelegate.swift */; };
+		46650F762306935E0084A95B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46650F752306935E0084A95B /* ViewController.swift */; };
+		46650F792306935E0084A95B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46650F772306935E0084A95B /* Main.storyboard */; };
+		46650F7B2306935F0084A95B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46650F7A2306935F0084A95B /* Assets.xcassets */; };
+		46650F7E2306935F0084A95B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46650F7C2306935F0084A95B /* LaunchScreen.storyboard */; };
+		46650F892306935F0084A95B /* MykiLiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46650F882306935F0084A95B /* MykiLiteTests.swift */; };
+		46650F942306935F0084A95B /* MykiLiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46650F932306935F0084A95B /* MykiLiteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46650F852306935F0084A95B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46650F682306935D0084A95B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46650F6F2306935E0084A95B;
+			remoteInfo = MykiLite;
+		};
+		46650F902306935F0084A95B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46650F682306935D0084A95B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46650F6F2306935E0084A95B;
+			remoteInfo = MykiLite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46650F702306935E0084A95B /* MykiLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MykiLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46650F732306935E0084A95B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46650F752306935E0084A95B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46650F782306935E0084A95B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46650F7A2306935F0084A95B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46650F7D2306935F0084A95B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46650F7F2306935F0084A95B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46650F842306935F0084A95B /* MykiLiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MykiLiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46650F882306935F0084A95B /* MykiLiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MykiLiteTests.swift; sourceTree = "<group>"; };
+		46650F8A2306935F0084A95B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46650F8F2306935F0084A95B /* MykiLiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MykiLiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46650F932306935F0084A95B /* MykiLiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MykiLiteUITests.swift; sourceTree = "<group>"; };
+		46650F952306935F0084A95B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46650F6D2306935E0084A95B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46650F812306935F0084A95B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46650F8C2306935F0084A95B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46650F672306935D0084A95B = {
+			isa = PBXGroup;
+			children = (
+				46650F722306935E0084A95B /* MykiLite */,
+				46650F872306935F0084A95B /* MykiLiteTests */,
+				46650F922306935F0084A95B /* MykiLiteUITests */,
+				46650F712306935E0084A95B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46650F712306935E0084A95B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46650F702306935E0084A95B /* MykiLite.app */,
+				46650F842306935F0084A95B /* MykiLiteTests.xctest */,
+				46650F8F2306935F0084A95B /* MykiLiteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46650F722306935E0084A95B /* MykiLite */ = {
+			isa = PBXGroup;
+			children = (
+				46650F732306935E0084A95B /* AppDelegate.swift */,
+				46650F752306935E0084A95B /* ViewController.swift */,
+				46650F772306935E0084A95B /* Main.storyboard */,
+				46650F7A2306935F0084A95B /* Assets.xcassets */,
+				46650F7C2306935F0084A95B /* LaunchScreen.storyboard */,
+				46650F7F2306935F0084A95B /* Info.plist */,
+			);
+			path = MykiLite;
+			sourceTree = "<group>";
+		};
+		46650F872306935F0084A95B /* MykiLiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				46650F882306935F0084A95B /* MykiLiteTests.swift */,
+				46650F8A2306935F0084A95B /* Info.plist */,
+			);
+			path = MykiLiteTests;
+			sourceTree = "<group>";
+		};
+		46650F922306935F0084A95B /* MykiLiteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46650F932306935F0084A95B /* MykiLiteUITests.swift */,
+				46650F952306935F0084A95B /* Info.plist */,
+			);
+			path = MykiLiteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46650F6F2306935E0084A95B /* MykiLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46650F982306935F0084A95B /* Build configuration list for PBXNativeTarget "MykiLite" */;
+			buildPhases = (
+				46650F6C2306935E0084A95B /* Sources */,
+				46650F6D2306935E0084A95B /* Frameworks */,
+				46650F6E2306935E0084A95B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MykiLite;
+			productName = MykiLite;
+			productReference = 46650F702306935E0084A95B /* MykiLite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46650F832306935F0084A95B /* MykiLiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46650F9B2306935F0084A95B /* Build configuration list for PBXNativeTarget "MykiLiteTests" */;
+			buildPhases = (
+				46650F802306935F0084A95B /* Sources */,
+				46650F812306935F0084A95B /* Frameworks */,
+				46650F822306935F0084A95B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46650F862306935F0084A95B /* PBXTargetDependency */,
+			);
+			name = MykiLiteTests;
+			productName = MykiLiteTests;
+			productReference = 46650F842306935F0084A95B /* MykiLiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46650F8E2306935F0084A95B /* MykiLiteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46650F9E2306935F0084A95B /* Build configuration list for PBXNativeTarget "MykiLiteUITests" */;
+			buildPhases = (
+				46650F8B2306935F0084A95B /* Sources */,
+				46650F8C2306935F0084A95B /* Frameworks */,
+				46650F8D2306935F0084A95B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46650F912306935F0084A95B /* PBXTargetDependency */,
+			);
+			name = MykiLiteUITests;
+			productName = MykiLiteUITests;
+			productReference = 46650F8F2306935F0084A95B /* MykiLiteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46650F682306935D0084A95B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = myki;
+				TargetAttributes = {
+					46650F6F2306935E0084A95B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					46650F832306935F0084A95B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 46650F6F2306935E0084A95B;
+					};
+					46650F8E2306935F0084A95B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 46650F6F2306935E0084A95B;
+					};
+				};
+			};
+			buildConfigurationList = 46650F6B2306935D0084A95B /* Build configuration list for PBXProject "MykiLite" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46650F672306935D0084A95B;
+			productRefGroup = 46650F712306935E0084A95B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46650F6F2306935E0084A95B /* MykiLite */,
+				46650F832306935F0084A95B /* MykiLiteTests */,
+				46650F8E2306935F0084A95B /* MykiLiteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46650F6E2306935E0084A95B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46650F7E2306935F0084A95B /* LaunchScreen.storyboard in Resources */,
+				46650F7B2306935F0084A95B /* Assets.xcassets in Resources */,
+				46650F792306935E0084A95B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46650F822306935F0084A95B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46650F8D2306935F0084A95B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46650F6C2306935E0084A95B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46650F762306935E0084A95B /* ViewController.swift in Sources */,
+				46650F742306935E0084A95B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46650F802306935F0084A95B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46650F892306935F0084A95B /* MykiLiteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46650F8B2306935F0084A95B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46650F942306935F0084A95B /* MykiLiteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46650F862306935F0084A95B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46650F6F2306935E0084A95B /* MykiLite */;
+			targetProxy = 46650F852306935F0084A95B /* PBXContainerItemProxy */;
+		};
+		46650F912306935F0084A95B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46650F6F2306935E0084A95B /* MykiLite */;
+			targetProxy = 46650F902306935F0084A95B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46650F772306935E0084A95B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46650F782306935E0084A95B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46650F7C2306935F0084A95B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46650F7D2306935F0084A95B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46650F962306935F0084A95B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46650F972306935F0084A95B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46650F992306935F0084A95B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AW4U67GXM;
+				INFOPLIST_FILE = MykiLite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myki.MykiLite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46650F9A2306935F0084A95B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AW4U67GXM;
+				INFOPLIST_FILE = MykiLite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myki.MykiLite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46650F9C2306935F0084A95B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AW4U67GXM;
+				INFOPLIST_FILE = MykiLiteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myki.MykiLiteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MykiLite.app/MykiLite";
+			};
+			name = Debug;
+		};
+		46650F9D2306935F0084A95B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AW4U67GXM;
+				INFOPLIST_FILE = MykiLiteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myki.MykiLiteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MykiLite.app/MykiLite";
+			};
+			name = Release;
+		};
+		46650F9F2306935F0084A95B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AW4U67GXM;
+				INFOPLIST_FILE = MykiLiteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myki.MykiLiteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MykiLite;
+			};
+			name = Debug;
+		};
+		46650FA02306935F0084A95B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2AW4U67GXM;
+				INFOPLIST_FILE = MykiLiteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myki.MykiLiteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MykiLite;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46650F6B2306935D0084A95B /* Build configuration list for PBXProject "MykiLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46650F962306935F0084A95B /* Debug */,
+				46650F972306935F0084A95B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46650F982306935F0084A95B /* Build configuration list for PBXNativeTarget "MykiLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46650F992306935F0084A95B /* Debug */,
+				46650F9A2306935F0084A95B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46650F9B2306935F0084A95B /* Build configuration list for PBXNativeTarget "MykiLiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46650F9C2306935F0084A95B /* Debug */,
+				46650F9D2306935F0084A95B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46650F9E2306935F0084A95B /* Build configuration list for PBXNativeTarget "MykiLiteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46650F9F2306935F0084A95B /* Debug */,
+				46650FA02306935F0084A95B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46650F682306935D0084A95B /* Project object */;
+}
