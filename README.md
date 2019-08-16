@@ -69,7 +69,7 @@ It’s important for us to see
 * how you prioritize
 
 # Submission
-To submit your solution, simply create a pull request on the repo.
+To submit your solution, simply fork a private repo and add the reviewers usernames as reporters.
 
 If something isn’t clear or you’re not sure about some requirements, don’t worry!
 We want you to succeed too. We are a team after all so please email us on ios@myki.com and we can even jump on a video call. 
