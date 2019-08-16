@@ -8,14 +8,37 @@
 
 import UIKit
 
+let database = Database()
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
 
-
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
+
+    // Initialize the window
+    window = UIWindow(frame: UIScreen.main.bounds)
+
+    // Set Background Color of window
+    window?.backgroundColor = .darkGray
+
+    // Allocate memory for an instance of the 'PasswordsViewController' class
+    let passwordVC = PasswordsViewController()
+    let navController = UINavigationController(rootViewController: passwordVC)
+    navController.navigationBar.barTintColor = .navBar
+    navController.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
+    navController.navigationBar.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
+    navController.navigationBar.tintColor = .mykiGreen
+    navController.navigationBar.prefersLargeTitles = true
+
+    // Set the root view controller of the app's window
+    window!.rootViewController = navController
+
+    // Make the window visible
+    window!.makeKeyAndVisible()
+
     return true
   }
 

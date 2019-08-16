@@ -8,12 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		46650F742306935E0084A95B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46650F732306935E0084A95B /* AppDelegate.swift */; };
-		46650F762306935E0084A95B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46650F752306935E0084A95B /* ViewController.swift */; };
-		46650F792306935E0084A95B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46650F772306935E0084A95B /* Main.storyboard */; };
 		46650F7B2306935F0084A95B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46650F7A2306935F0084A95B /* Assets.xcassets */; };
 		46650F7E2306935F0084A95B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46650F7C2306935F0084A95B /* LaunchScreen.storyboard */; };
 		46650F892306935F0084A95B /* MykiLiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46650F882306935F0084A95B /* MykiLiteTests.swift */; };
 		46650F942306935F0084A95B /* MykiLiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46650F932306935F0084A95B /* MykiLiteUITests.swift */; };
+		46650FEC230693B70084A95B /* PasswordsView+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46650FE8230693B70084A95B /* PasswordsView+TableView.swift */; };
+		46650FED230693B70084A95B /* PasswordCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46650FE9230693B70084A95B /* PasswordCellView.swift */; };
+		46650FEE230693B70084A95B /* PasswordsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46650FEA230693B70084A95B /* PasswordsViewModel.swift */; };
+		46650FEF230693B70084A95B /* PasswordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46650FEB230693B70084A95B /* PasswordsViewController.swift */; };
+		46650FF6230693E30084A95B /* AddPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46650FF1230693E30084A95B /* AddPasswordViewModel.swift */; };
+		46650FF7230693E30084A95B /* PasswordHeaderCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46650FF2230693E30084A95B /* PasswordHeaderCellView.swift */; };
+		46650FF8230693E30084A95B /* DetailCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46650FF3230693E30084A95B /* DetailCellView.swift */; };
+		46650FF9230693E30084A95B /* AddPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46650FF4230693E30084A95B /* AddPasswordViewController.swift */; };
+		46650FFA230693E30084A95B /* AddPasswordView+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46650FF5230693E30084A95B /* AddPasswordView+TableView.swift */; };
+		46650FFD230694060084A95B /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46650FFC230694060084A95B /* UIColor+Extension.swift */; };
+		46651003230694450084A95B /* PasswordObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46651000230694450084A95B /* PasswordObject.swift */; };
+		46651004230694450084A95B /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46651001230694450084A95B /* Database.swift */; };
+		46651005230694450084A95B /* FetchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46651002230694450084A95B /* FetchRequest.swift */; };
+		46651009230694580084A95B /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46651007230694580084A95B /* Field.swift */; };
+		4665100A230694580084A95B /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46651008230694580084A95B /* Password.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +49,6 @@
 /* Begin PBXFileReference section */
 		46650F702306935E0084A95B /* MykiLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MykiLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46650F732306935E0084A95B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		46650F752306935E0084A95B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		46650F782306935E0084A95B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		46650F7A2306935F0084A95B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46650F7D2306935F0084A95B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46650F7F2306935F0084A95B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +58,22 @@
 		46650F8F2306935F0084A95B /* MykiLiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MykiLiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46650F932306935F0084A95B /* MykiLiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MykiLiteUITests.swift; sourceTree = "<group>"; };
 		46650F952306935F0084A95B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46650FE8230693B70084A95B /* PasswordsView+TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PasswordsView+TableView.swift"; sourceTree = "<group>"; };
+		46650FE9230693B70084A95B /* PasswordCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordCellView.swift; sourceTree = "<group>"; };
+		46650FEA230693B70084A95B /* PasswordsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordsViewModel.swift; sourceTree = "<group>"; };
+		46650FEB230693B70084A95B /* PasswordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordsViewController.swift; sourceTree = "<group>"; };
+		46650FF1230693E30084A95B /* AddPasswordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPasswordViewModel.swift; sourceTree = "<group>"; };
+		46650FF2230693E30084A95B /* PasswordHeaderCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordHeaderCellView.swift; sourceTree = "<group>"; };
+		46650FF3230693E30084A95B /* DetailCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCellView.swift; sourceTree = "<group>"; };
+		46650FF4230693E30084A95B /* AddPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPasswordViewController.swift; sourceTree = "<group>"; };
+		46650FF5230693E30084A95B /* AddPasswordView+TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AddPasswordView+TableView.swift"; sourceTree = "<group>"; };
+		46650FFC230694060084A95B /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		46651000230694450084A95B /* PasswordObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordObject.swift; sourceTree = "<group>"; };
+		46651001230694450084A95B /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		46651002230694450084A95B /* FetchRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchRequest.swift; sourceTree = "<group>"; };
+		46651007230694580084A95B /* Field.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
+		46651008230694580084A95B /* Password.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
+		4665100B230694870084A95B /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +124,11 @@
 		46650F722306935E0084A95B /* MykiLite */ = {
 			isa = PBXGroup;
 			children = (
+				46650FE7230693AF0084A95B /* PasswordsView */,
+				46650FF0230693DA0084A95B /* AddPasswordView */,
+				46650FFE230694300084A95B /* Model */,
+				46650FFB230694000084A95B /* Extensions */,
 				46650F732306935E0084A95B /* AppDelegate.swift */,
-				46650F752306935E0084A95B /* ViewController.swift */,
-				46650F772306935E0084A95B /* Main.storyboard */,
 				46650F7A2306935F0084A95B /* Assets.xcassets */,
 				46650F7C2306935F0084A95B /* LaunchScreen.storyboard */,
 				46650F7F2306935F0084A95B /* Info.plist */,
@@ -123,6 +152,65 @@
 				46650F952306935F0084A95B /* Info.plist */,
 			);
 			path = MykiLiteUITests;
+			sourceTree = "<group>";
+		};
+		46650FE7230693AF0084A95B /* PasswordsView */ = {
+			isa = PBXGroup;
+			children = (
+				46650FEB230693B70084A95B /* PasswordsViewController.swift */,
+				46650FE8230693B70084A95B /* PasswordsView+TableView.swift */,
+				46650FEA230693B70084A95B /* PasswordsViewModel.swift */,
+				46650FE9230693B70084A95B /* PasswordCellView.swift */,
+			);
+			name = PasswordsView;
+			sourceTree = "<group>";
+		};
+		46650FF0230693DA0084A95B /* AddPasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				46650FF4230693E30084A95B /* AddPasswordViewController.swift */,
+				46650FF5230693E30084A95B /* AddPasswordView+TableView.swift */,
+				46650FF1230693E30084A95B /* AddPasswordViewModel.swift */,
+				46650FF2230693E30084A95B /* PasswordHeaderCellView.swift */,
+				46650FF3230693E30084A95B /* DetailCellView.swift */,
+			);
+			name = AddPasswordView;
+			sourceTree = "<group>";
+		};
+		46650FFB230694000084A95B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				46650FFC230694060084A95B /* UIColor+Extension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		46650FFE230694300084A95B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46651006230694500084A95B /* Object */,
+				46650FFF2306943B0084A95B /* Realm */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		46650FFF2306943B0084A95B /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				46651001230694450084A95B /* Database.swift */,
+				46651002230694450084A95B /* FetchRequest.swift */,
+				46651000230694450084A95B /* PasswordObject.swift */,
+			);
+			name = Realm;
+			sourceTree = "<group>";
+		};
+		46651006230694500084A95B /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				46651007230694580084A95B /* Field.swift */,
+				46651008230694580084A95B /* Password.swift */,
+			);
+			name = Object;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +299,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 46650F672306935D0084A95B;
 			productRefGroup = 46650F712306935E0084A95B /* Products */;
@@ -231,7 +320,6 @@
 			files = (
 				46650F7E2306935F0084A95B /* LaunchScreen.storyboard in Resources */,
 				46650F7B2306935F0084A95B /* Assets.xcassets in Resources */,
-				46650F792306935E0084A95B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +344,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46650F762306935E0084A95B /* ViewController.swift in Sources */,
+				46650FEF230693B70084A95B /* PasswordsViewController.swift in Sources */,
 				46650F742306935E0084A95B /* AppDelegate.swift in Sources */,
+				46650FF9230693E30084A95B /* AddPasswordViewController.swift in Sources */,
+				46650FFD230694060084A95B /* UIColor+Extension.swift in Sources */,
+				46651005230694450084A95B /* FetchRequest.swift in Sources */,
+				46651009230694580084A95B /* Field.swift in Sources */,
+				46650FEE230693B70084A95B /* PasswordsViewModel.swift in Sources */,
+				46651003230694450084A95B /* PasswordObject.swift in Sources */,
+				46650FEC230693B70084A95B /* PasswordsView+TableView.swift in Sources */,
+				46650FFA230693E30084A95B /* AddPasswordView+TableView.swift in Sources */,
+				46650FF7230693E30084A95B /* PasswordHeaderCellView.swift in Sources */,
+				46650FF8230693E30084A95B /* DetailCellView.swift in Sources */,
+				4665100A230694580084A95B /* Password.swift in Sources */,
+				46650FED230693B70084A95B /* PasswordCellView.swift in Sources */,
+				46651004230694450084A95B /* Database.swift in Sources */,
+				46650FF6230693E30084A95B /* AddPasswordViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,18 +395,11 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		46650F772306935E0084A95B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				46650F782306935E0084A95B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		46650F7C2306935F0084A95B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				46650F7D2306935F0084A95B /* Base */,
+				4665100B230694870084A95B /* fr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -363,7 +459,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -377,6 +473,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -418,7 +515,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -435,6 +532,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2AW4U67GXM;
 				INFOPLIST_FILE = MykiLite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +551,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2AW4U67GXM;
 				INFOPLIST_FILE = MykiLite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
