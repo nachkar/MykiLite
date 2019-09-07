@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EBA3F4B681AC0D3FA6735FC /* Pods_MykiLiteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E287F7CEA99D86C2787F7399 /* Pods_MykiLiteUITests.framework */; };
 		46650F742306935E0084A95B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46650F732306935E0084A95B /* AppDelegate.swift */; };
 		46650F7B2306935F0084A95B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46650F7A2306935F0084A95B /* Assets.xcassets */; };
 		46650F7E2306935F0084A95B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46650F7C2306935F0084A95B /* LaunchScreen.storyboard */; };
@@ -27,6 +28,13 @@
 		46651005230694450084A95B /* FetchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46651002230694450084A95B /* FetchRequest.swift */; };
 		46651009230694580084A95B /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46651007230694580084A95B /* Field.swift */; };
 		4665100A230694580084A95B /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46651008230694580084A95B /* Password.swift */; };
+		52AC1329F487C02C46B2156E /* Pods_MykiLiteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B26D6287C56B08CB51DA5843 /* Pods_MykiLiteTests.framework */; };
+		62AB435323232A570085F05B /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB435223232A570085F05B /* PasswordViewController.swift */; };
+		62AB435523232A8C0085F05B /* PasswordDisplayHeaderCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB435423232A8C0085F05B /* PasswordDisplayHeaderCellView.swift */; };
+		62AB435723232AA60085F05B /* PasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB435623232AA60085F05B /* PasswordViewModel.swift */; };
+		62AB435B23232AD60085F05B /* PasswordView+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB435A23232AD60085F05B /* PasswordView+TableView.swift */; };
+		62AB435D23232B620085F05B /* PasswordDisplayCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB435C23232B620085F05B /* PasswordDisplayCellView.swift */; };
+		722DAAF76941DF4414D5E50E /* Pods_MykiLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01BFAE5CD1F0317905BA0F94 /* Pods_MykiLite.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01BFAE5CD1F0317905BA0F94 /* Pods_MykiLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MykiLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CD68DE53E1813487A5958E /* Pods-MykiLiteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MykiLiteUITests.release.xcconfig"; path = "Target Support Files/Pods-MykiLiteUITests/Pods-MykiLiteUITests.release.xcconfig"; sourceTree = "<group>"; };
 		46650F702306935E0084A95B /* MykiLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MykiLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46650F732306935E0084A95B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46650F7A2306935F0084A95B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -74,6 +84,18 @@
 		46651007230694580084A95B /* Field.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
 		46651008230694580084A95B /* Password.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
 		4665100B230694870084A95B /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		62AB435223232A570085F05B /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		62AB435423232A8C0085F05B /* PasswordDisplayHeaderCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordDisplayHeaderCellView.swift; sourceTree = "<group>"; };
+		62AB435623232AA60085F05B /* PasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewModel.swift; sourceTree = "<group>"; };
+		62AB435A23232AD60085F05B /* PasswordView+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PasswordView+TableView.swift"; sourceTree = "<group>"; };
+		62AB435C23232B620085F05B /* PasswordDisplayCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordDisplayCellView.swift; sourceTree = "<group>"; };
+		8277E8941209B4941C58F27D /* Pods-MykiLite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MykiLite.release.xcconfig"; path = "Target Support Files/Pods-MykiLite/Pods-MykiLite.release.xcconfig"; sourceTree = "<group>"; };
+		AD515DF867E5F88B34E59369 /* Pods-MykiLiteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MykiLiteTests.release.xcconfig"; path = "Target Support Files/Pods-MykiLiteTests/Pods-MykiLiteTests.release.xcconfig"; sourceTree = "<group>"; };
+		B26D6287C56B08CB51DA5843 /* Pods_MykiLiteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MykiLiteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2868FA75FA122718071070 /* Pods-MykiLite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MykiLite.debug.xcconfig"; path = "Target Support Files/Pods-MykiLite/Pods-MykiLite.debug.xcconfig"; sourceTree = "<group>"; };
+		C825A3D4120512A31A6AF85E /* Pods-MykiLiteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MykiLiteUITests.debug.xcconfig"; path = "Target Support Files/Pods-MykiLiteUITests/Pods-MykiLiteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB52020078F5C1EB292B76B3 /* Pods-MykiLiteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MykiLiteTests.debug.xcconfig"; path = "Target Support Files/Pods-MykiLiteTests/Pods-MykiLiteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E287F7CEA99D86C2787F7399 /* Pods_MykiLiteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MykiLiteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				722DAAF76941DF4414D5E50E /* Pods_MykiLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52AC1329F487C02C46B2156E /* Pods_MykiLiteTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,12 +119,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EBA3F4B681AC0D3FA6735FC /* Pods_MykiLiteUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E04D7DFFDF6FEF0DAF21D22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC2868FA75FA122718071070 /* Pods-MykiLite.debug.xcconfig */,
+				8277E8941209B4941C58F27D /* Pods-MykiLite.release.xcconfig */,
+				CB52020078F5C1EB292B76B3 /* Pods-MykiLiteTests.debug.xcconfig */,
+				AD515DF867E5F88B34E59369 /* Pods-MykiLiteTests.release.xcconfig */,
+				C825A3D4120512A31A6AF85E /* Pods-MykiLiteUITests.debug.xcconfig */,
+				04CD68DE53E1813487A5958E /* Pods-MykiLiteUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		46650F672306935D0084A95B = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +146,8 @@
 				46650F872306935F0084A95B /* MykiLiteTests */,
 				46650F922306935F0084A95B /* MykiLiteUITests */,
 				46650F712306935E0084A95B /* Products */,
+				3E04D7DFFDF6FEF0DAF21D22 /* Pods */,
+				7E09C19F2F2CECD200FC0B2E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +164,7 @@
 		46650F722306935E0084A95B /* MykiLite */ = {
 			isa = PBXGroup;
 			children = (
+				62AB435123232A320085F05B /* PasswordView */,
 				46650FE7230693AF0084A95B /* PasswordsView */,
 				46650FF0230693DA0084A95B /* AddPasswordView */,
 				46650FFE230694300084A95B /* Model */,
@@ -213,6 +254,28 @@
 			name = Object;
 			sourceTree = "<group>";
 		};
+		62AB435123232A320085F05B /* PasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				62AB435223232A570085F05B /* PasswordViewController.swift */,
+				62AB435423232A8C0085F05B /* PasswordDisplayHeaderCellView.swift */,
+				62AB435623232AA60085F05B /* PasswordViewModel.swift */,
+				62AB435A23232AD60085F05B /* PasswordView+TableView.swift */,
+				62AB435C23232B620085F05B /* PasswordDisplayCellView.swift */,
+			);
+			name = PasswordView;
+			sourceTree = "<group>";
+		};
+		7E09C19F2F2CECD200FC0B2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01BFAE5CD1F0317905BA0F94 /* Pods_MykiLite.framework */,
+				B26D6287C56B08CB51DA5843 /* Pods_MykiLiteTests.framework */,
+				E287F7CEA99D86C2787F7399 /* Pods_MykiLiteUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -220,9 +283,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46650F982306935F0084A95B /* Build configuration list for PBXNativeTarget "MykiLite" */;
 			buildPhases = (
+				0CCCCA283B93FD5FA6E1BA29 /* [CP] Check Pods Manifest.lock */,
 				46650F6C2306935E0084A95B /* Sources */,
 				46650F6D2306935E0084A95B /* Frameworks */,
 				46650F6E2306935E0084A95B /* Resources */,
+				F7C4F677BF659F6B840EA1D1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,6 +302,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46650F9B2306935F0084A95B /* Build configuration list for PBXNativeTarget "MykiLiteTests" */;
 			buildPhases = (
+				59308B9B44A774ECE1C1BFCB /* [CP] Check Pods Manifest.lock */,
 				46650F802306935F0084A95B /* Sources */,
 				46650F812306935F0084A95B /* Frameworks */,
 				46650F822306935F0084A95B /* Resources */,
@@ -255,6 +321,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46650F9E2306935F0084A95B /* Build configuration list for PBXNativeTarget "MykiLiteUITests" */;
 			buildPhases = (
+				C897F6057EF23197BB914588 /* [CP] Check Pods Manifest.lock */,
 				46650F8B2306935F0084A95B /* Sources */,
 				46650F8C2306935F0084A95B /* Frameworks */,
 				46650F8D2306935F0084A95B /* Resources */,
@@ -339,16 +406,105 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CCCCA283B93FD5FA6E1BA29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MykiLite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59308B9B44A774ECE1C1BFCB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MykiLiteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C897F6057EF23197BB914588 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MykiLiteUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7C4F677BF659F6B840EA1D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MykiLite/Pods-MykiLite-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MykiLite/Pods-MykiLite-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MykiLite/Pods-MykiLite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		46650F6C2306935E0084A95B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				46650FEF230693B70084A95B /* PasswordsViewController.swift in Sources */,
+				62AB435523232A8C0085F05B /* PasswordDisplayHeaderCellView.swift in Sources */,
 				46650F742306935E0084A95B /* AppDelegate.swift in Sources */,
 				46650FF9230693E30084A95B /* AddPasswordViewController.swift in Sources */,
 				46650FFD230694060084A95B /* UIColor+Extension.swift in Sources */,
 				46651005230694450084A95B /* FetchRequest.swift in Sources */,
+				62AB435323232A570085F05B /* PasswordViewController.swift in Sources */,
+				62AB435B23232AD60085F05B /* PasswordView+TableView.swift in Sources */,
 				46651009230694580084A95B /* Field.swift in Sources */,
 				46650FEE230693B70084A95B /* PasswordsViewModel.swift in Sources */,
 				46651003230694450084A95B /* PasswordObject.swift in Sources */,
@@ -356,7 +512,9 @@
 				46650FFA230693E30084A95B /* AddPasswordView+TableView.swift in Sources */,
 				46650FF7230693E30084A95B /* PasswordHeaderCellView.swift in Sources */,
 				46650FF8230693E30084A95B /* DetailCellView.swift in Sources */,
+				62AB435723232AA60085F05B /* PasswordViewModel.swift in Sources */,
 				4665100A230694580084A95B /* Password.swift in Sources */,
+				62AB435D23232B620085F05B /* PasswordDisplayCellView.swift in Sources */,
 				46650FED230693B70084A95B /* PasswordCellView.swift in Sources */,
 				46651004230694450084A95B /* Database.swift in Sources */,
 				46650FF6230693E30084A95B /* AddPasswordViewModel.swift in Sources */,
@@ -527,6 +685,7 @@
 		};
 		46650F992306935F0084A95B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC2868FA75FA122718071070 /* Pods-MykiLite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +705,7 @@
 		};
 		46650F9A2306935F0084A95B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8277E8941209B4941C58F27D /* Pods-MykiLite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -565,6 +725,7 @@
 		};
 		46650F9C2306935F0084A95B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB52020078F5C1EB292B76B3 /* Pods-MykiLiteTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -586,6 +747,7 @@
 		};
 		46650F9D2306935F0084A95B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD515DF867E5F88B34E59369 /* Pods-MykiLiteTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -607,6 +769,7 @@
 		};
 		46650F9F2306935F0084A95B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C825A3D4120512A31A6AF85E /* Pods-MykiLiteUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -627,6 +790,7 @@
 		};
 		46650FA02306935F0084A95B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04CD68DE53E1813487A5958E /* Pods-MykiLiteUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
