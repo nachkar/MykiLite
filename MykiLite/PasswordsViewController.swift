@@ -8,9 +8,12 @@
 
 import UIKit
 
-class PasswordsViewController: UITableViewController {
+class PasswordsViewController: UITableViewController, AddPasswordDelegate {
+    func reloadPasswordList() {
+        self.tableView.reloadData()
+    }
 
-  var viewModel: PasswordViewModel!
+  var viewModel: PasswordsViewModel!
 
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -22,6 +25,7 @@ class PasswordsViewController: UITableViewController {
 
   @objc func addPassword() {
     let controller = AddPasswordViewController()
+    controller.delegate = self
     self.navigationController?.pushViewController(controller, animated: true)
   }
 

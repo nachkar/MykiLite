@@ -40,7 +40,9 @@ extension PasswordViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "displayHeaderCell", for: indexPath) as! PasswordDisplayHeaderCellView
         cell.selectionStyle = .none
         cell.clipsToBounds = true
-
+        cell.emailLabel.text = viewModel.password.username
+        cell.nicknameLabel.text = viewModel.password.nickname
+        //image
         return cell
     }
     
@@ -51,6 +53,10 @@ extension PasswordViewController {
         cell.titleLabel.text = field.title
         cell.detailTextField.text = field.value
         cell.detailTextField.isSecureTextEntry = field.isSecure
+        
+        if field.title == "Nickname" || field.title == "Website" {
+            cell.copyButton.isHidden = true
+        }
         
         cell.clipsToBounds = true
         cell.selectionStyle = .none

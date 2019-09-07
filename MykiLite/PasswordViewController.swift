@@ -32,6 +32,20 @@ class PasswordViewController: UITableViewController, UITextFieldDelegate {
         self.tableView.separatorStyle = .none
         self.tableView.register(PasswordDisplayHeaderCellView.self, forCellReuseIdentifier: "displayHeaderCell")
         self.tableView.register(PasswordDisplayCellView.self, forCellReuseIdentifier: "displayDetailCell")
+        
+        
+        for (index,field) in (viewModel.fields).enumerated() {
+            if field.title == "Nickname" {
+                viewModel.fields[index].value = viewModel.password.nickname
+            } else if field.title == "Username" {
+                viewModel.fields[index].value = viewModel.password.username
+            } else if field.title == "Password" {
+                viewModel.fields[index].value = viewModel.password.password
+            } else if field.title == "Website" {
+                viewModel.fields[index].value = viewModel.password.url
+            }
+        }
+
     }
     
     @objc func textFieldChanged(_ textField: UITextField) {
