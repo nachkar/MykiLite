@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PasswordsViewController: UITableViewController, AddPasswordDelegate {
+class PasswordsViewController: UITableViewController, AddPasswordDelegate, PasswordDelegate {
     func reloadPasswordList() {
         self.tableView.reloadData()
     }

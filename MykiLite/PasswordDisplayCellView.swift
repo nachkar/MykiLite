@@ -36,11 +36,12 @@ class PasswordDisplayCellView: UITableViewCell {
         detailTextField.textColor = .white
         detailTextField.font = UIFont.systemFont(ofSize: 16)
         detailTextField.autocorrectionType = .no
-        detailTextField.isEnabled = false
         
+        copyButton.isHidden = true
         copyButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 18)
         copyButton.setTitle("COPY", for: .normal)
         copyButton.setTitleColor(.mykiGreen, for: .normal)
+        copyButton.addTarget(self, action: #selector(copyPressed), for: .touchUpInside)
         
         self.contentView.addSubview(infoBackgroundView)
         infoBackgroundView.addSubview(titleLabel)
@@ -81,6 +82,11 @@ class PasswordDisplayCellView: UITableViewCell {
     
     override func layoutSublayers(of layer: CALayer) {
         super.layoutSublayers(of: layer)
+    }
+    
+    @objc func copyPressed() {
+        let pasteBoard = UIPasteboard.general
+        pasteBoard.string = detailTextField.text
     }
     
 }

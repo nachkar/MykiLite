@@ -54,9 +54,21 @@ extension PasswordViewController {
         cell.detailTextField.text = field.value
         cell.detailTextField.isSecureTextEntry = field.isSecure
         
-        if field.title == "Nickname" || field.title == "Website" {
-            cell.copyButton.isHidden = true
+        if field.title == "Password" {
+            cell.addGestureRecognizer(passwordLongPressGesture)
+            
+            if viewModel.isPasswordVisible {
+                cell.detailTextField.text = field.value
+            } else {
+                cell.detailTextField.text = "Hold to reveal item"
+            }
         }
+        
+        if field.title == "Username" || field.title == "Password" {
+            cell.copyButton.isHidden = false
+        }
+        
+        cell.detailTextField.isEnabled = viewModel.isEditing
         
         cell.clipsToBounds = true
         cell.selectionStyle = .none
@@ -64,7 +76,7 @@ extension PasswordViewController {
         cell.infoBackgroundView.backgroundColor = .darkGray
         cell.detailTextField.autocapitalizationType = .none
         cell.detailTextField.keyboardAppearance = .dark
-        
+
         cell.detailTextField.delegate = self
         cell.detailTextField.addTarget(self, action: #selector(self.textFieldChanged(_:)), for: .editingChanged)
         cell.detailTextField.tag = indexPath.row

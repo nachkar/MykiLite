@@ -25,6 +25,7 @@ extension PasswordsViewController {
 
   override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     let controller = PasswordViewController()
+    controller.delegate = self
     controller.viewModel = PasswordViewModel()
     controller.viewModel.password = viewModel.getPassword(row: indexPath.row)
     self.navigationController?.pushViewController(controller, animated: true)

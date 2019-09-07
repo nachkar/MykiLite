@@ -12,6 +12,8 @@ class PasswordViewModel {
     
     var password: Password!
     var fields: [Field] = []
+    var isEditing = false
+    var isPasswordVisible = false
     
     var numberOfCells: Int {
         return fields.count
