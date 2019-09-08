@@ -46,4 +46,20 @@ extension Password {
       self.url = url
     }
   }
+    
+    func validNickname() -> Bool {
+        return nickname.count > 3
+    }
+    
+    func validUsername() -> Bool {
+        return username.count > 5
+    }
+    
+    func validPassword() -> Bool {
+        return password.count > 6
+    }
+    
+    func validURL() -> Bool {
+        return url.count > 5 && Utilities.verifyUrl(urlString: url)
+    }
 }
