@@ -8,6 +8,9 @@ target 'MykiLite' do
   # Pods for MykiLite
 
 pod 'RealmSwift'
+pod 'SwiftyJSON'
+pod 'SDWebImage'
+
   target 'MykiLiteTests' do
     inherit! :search_paths
     # Pods for testing

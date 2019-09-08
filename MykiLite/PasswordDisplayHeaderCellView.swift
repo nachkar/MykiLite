@@ -31,10 +31,11 @@ class PasswordDisplayHeaderCellView: UITableViewCell {
         itemBackgroundView.layer.cornerRadius = 5
         
         itemImageView.translatesAutoresizingMaskIntoConstraints = false
+        itemImageView.clipsToBounds = true
         itemImageView.layer.masksToBounds = true
         itemImageView.layer.borderWidth = 1
         itemImageView.layer.borderColor = UIColor.clear.cgColor
-        itemImageView.image = UIImage(named: "default")
+        itemImageView.contentMode = .scaleAspectFit
         
         self.contentView.addSubview(itemBackgroundView)
         itemBackgroundView.addSubview(itemImageView)
@@ -81,7 +82,7 @@ class PasswordDisplayHeaderCellView: UITableViewCell {
     
     override func layoutSublayers(of layer: CALayer) {
         super.layoutSublayers(of: layer)
-        itemImageView.layer.cornerRadius = itemBackgroundView.frame.height / 5
+        itemImageView.layer.cornerRadius = itemImageView.frame.height/2
     }
     
 }

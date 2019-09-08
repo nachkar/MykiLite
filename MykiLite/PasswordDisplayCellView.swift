@@ -15,6 +15,7 @@ class PasswordDisplayCellView: UITableViewCell {
     var titleLabel = UILabel()
     var detailTextField = UITextField()
     var copyButton = UIButton()
+    var password: String!
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -86,6 +87,13 @@ class PasswordDisplayCellView: UITableViewCell {
     
     @objc func copyPressed() {
         let pasteBoard = UIPasteboard.general
+        
+        if detailTextField.text == "Hold to reveal item" {
+            pasteBoard.string = password
+
+            return
+        }
+        
         pasteBoard.string = detailTextField.text
     }
     

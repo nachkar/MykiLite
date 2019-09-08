@@ -42,7 +42,13 @@ extension PasswordViewController {
         cell.clipsToBounds = true
         cell.emailLabel.text = viewModel.password.username
         cell.nicknameLabel.text = viewModel.password.nickname
-        //image
+        
+        for field in viewModel.fields {
+            if field.title == "Website" {
+                cell.itemImageView.sd_setImage(with: URL(string: "http://logo.clearbit.com/\(field.value)"), placeholderImage: UIImage(named: "default"))
+            }
+        }
+        
         return cell
     }
     
@@ -52,8 +58,9 @@ extension PasswordViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "displayDetailCell", for: indexPath) as! PasswordDisplayCellView
         cell.titleLabel.text = field.title
         cell.detailTextField.text = field.value
-        cell.detailTextField.isSecureTextEntry = field.isSecure
-        
+        cell.detailTextField.isSecureTextEntry = field.isSecure        
+        cell.password = viewModel.password.password
+
         if field.title == "Password" {
             cell.addGestureRecognizer(passwordLongPressGesture)
             

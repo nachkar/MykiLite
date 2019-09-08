@@ -20,6 +20,7 @@ extension PasswordsViewController {
     let password = viewModel.getPassword(row: indexPath.row)
     cell.nicknameLabel.text = password.nickname
     cell.emailLabel.text = password.username
+    cell.itemImageView.sd_setImage(with: URL(string: "http://logo.clearbit.com/\(password.url)"), placeholderImage: UIImage(named: "default"))
     return cell
   }
 

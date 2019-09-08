@@ -4,19 +4,29 @@ PODS:
   - Realm/Headers (3.17.1)
   - RealmSwift (3.17.1):
     - Realm (= 3.17.1)
+  - SDWebImage (5.0.6):
+    - SDWebImage/Core (= 5.0.6)
+  - SDWebImage/Core (5.0.6)
+  - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
   - RealmSwift
+  - SDWebImage
+  - SwiftyJSON
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Realm
     - RealmSwift
+    - SDWebImage
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
   Realm: c204f1a890f07dea43b14132a6aad118c054b8f2
   RealmSwift: 4d3c9233544b9cd08a8913e0872b9038eb99b054
+  SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: a4eb8245004b9f933352293f749eff9f20c7c55c
+PODFILE CHECKSUM: f3fca071f7ab0ee73ee6dc6681e95a5a1dbde4fc
 
 COCOAPODS: 1.7.2

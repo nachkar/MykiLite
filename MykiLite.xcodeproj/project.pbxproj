@@ -34,6 +34,7 @@
 		62AB435723232AA60085F05B /* PasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB435623232AA60085F05B /* PasswordViewModel.swift */; };
 		62AB435B23232AD60085F05B /* PasswordView+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB435A23232AD60085F05B /* PasswordView+TableView.swift */; };
 		62AB435D23232B620085F05B /* PasswordDisplayCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB435C23232B620085F05B /* PasswordDisplayCellView.swift */; };
+		62AB435F232437120085F05B /* Requester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AB435E232437120085F05B /* Requester.swift */; };
 		722DAAF76941DF4414D5E50E /* Pods_MykiLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01BFAE5CD1F0317905BA0F94 /* Pods_MykiLite.framework */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +90,7 @@
 		62AB435623232AA60085F05B /* PasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewModel.swift; sourceTree = "<group>"; };
 		62AB435A23232AD60085F05B /* PasswordView+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PasswordView+TableView.swift"; sourceTree = "<group>"; };
 		62AB435C23232B620085F05B /* PasswordDisplayCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordDisplayCellView.swift; sourceTree = "<group>"; };
+		62AB435E232437120085F05B /* Requester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requester.swift; sourceTree = "<group>"; };
 		8277E8941209B4941C58F27D /* Pods-MykiLite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MykiLite.release.xcconfig"; path = "Target Support Files/Pods-MykiLite/Pods-MykiLite.release.xcconfig"; sourceTree = "<group>"; };
 		AD515DF867E5F88B34E59369 /* Pods-MykiLiteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MykiLiteTests.release.xcconfig"; path = "Target Support Files/Pods-MykiLiteTests/Pods-MykiLiteTests.release.xcconfig"; sourceTree = "<group>"; };
 		B26D6287C56B08CB51DA5843 /* Pods_MykiLiteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MykiLiteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -169,6 +171,7 @@
 				46650FF0230693DA0084A95B /* AddPasswordView */,
 				46650FFE230694300084A95B /* Model */,
 				46650FFB230694000084A95B /* Extensions */,
+				62AB435E232437120085F05B /* Requester.swift */,
 				46650F732306935E0084A95B /* AppDelegate.swift */,
 				46650F7A2306935F0084A95B /* Assets.xcassets */,
 				46650F7C2306935F0084A95B /* LaunchScreen.storyboard */,
@@ -517,6 +520,7 @@
 				62AB435D23232B620085F05B /* PasswordDisplayCellView.swift in Sources */,
 				46650FED230693B70084A95B /* PasswordCellView.swift in Sources */,
 				46651004230694450084A95B /* Database.swift in Sources */,
+				62AB435F232437120085F05B /* Requester.swift in Sources */,
 				46650FF6230693E30084A95B /* AddPasswordViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
