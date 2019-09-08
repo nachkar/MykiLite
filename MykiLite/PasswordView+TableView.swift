@@ -64,7 +64,7 @@ extension PasswordViewController {
         if field.title == "Password" {
             cell.addGestureRecognizer(passwordLongPressGesture)
             
-            if viewModel.isPasswordVisible {
+            if viewModel.isPasswordVisible || viewModel.isEditing {
                 cell.detailTextField.text = field.value
             } else {
                 cell.detailTextField.text = "Hold to reveal item"

@@ -34,9 +34,6 @@ class PasswordViewController: UITableViewController, UITextFieldDelegate, UIGest
     }
     
     @objc func savePassword() {
-        viewModel.isEditing = false
-        tableView.reloadData()
-        
         var nickname = ""
         var username = ""
         var password = ""
@@ -64,6 +61,9 @@ class PasswordViewController: UITableViewController, UITextFieldDelegate, UIGest
                     let alert = UIAlertController(title: "PWNED", message: "This password has been seen before, continue?", preferredStyle: .alert)
                     
                     alert.addAction(UIAlertAction(title: "Continue", style: .default, handler: { action in
+                        self.viewModel.isEditing = false
+                        self.tableView.reloadData()
+                        
                         self.viewModel.updatePassword(item: item as NSDictionary)
                         database.createOrUpdate(model: self.viewModel.password!, with: PasswordObject.init)
                         self.delegate.reloadPasswordList()
@@ -78,6 +78,9 @@ class PasswordViewController: UITableViewController, UITextFieldDelegate, UIGest
                 }
             } else {
                 OperationQueue.main.addOperation {
+                    self.viewModel.isEditing = false
+                    self.tableView.reloadData()
+                    
                     self.viewModel.updatePassword(item: item as NSDictionary)
                     database.createOrUpdate(model: self.viewModel.password!, with: PasswordObject.init)
                     self.delegate.reloadPasswordList()
