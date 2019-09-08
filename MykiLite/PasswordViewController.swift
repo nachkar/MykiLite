@@ -58,13 +58,33 @@ class PasswordViewController: UITableViewController, UITextFieldDelegate, UIGest
         
         let item = ["uuid":passwordToUpdate.uuid,"nickname":nickname,"username":username,"url":website,"password":password]
         
-        viewModel.updatePassword(item: item as NSDictionary)
-        
-        database.createOrUpdate(model: viewModel.password!, with: PasswordObject.init)
-        
-        self.delegate.reloadPasswordList()
-        
-        configureNavBar()
+        Requester.pwnedPasswordRequest(password: password) { (pwned) in
+            if pwned {
+                OperationQueue.main.addOperation {
+                    let alert = UIAlertController(title: "PWNED", message: "This password has been seen before, continue?", preferredStyle: .alert)
+                    
+                    alert.addAction(UIAlertAction(title: "Continue", style: .default, handler: { action in
+                        self.viewModel.updatePassword(item: item as NSDictionary)
+                        database.createOrUpdate(model: self.viewModel.password!, with: PasswordObject.init)
+                        self.delegate.reloadPasswordList()
+                        self.configureNavBar()
+                    }))
+                    
+                    alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: { action in
+                        self.dismiss(animated: true, completion: nil)
+                    }))
+                    
+                    self.present(alert, animated: true, completion: nil)
+                }
+            } else {
+                OperationQueue.main.addOperation {
+                    self.viewModel.updatePassword(item: item as NSDictionary)
+                    database.createOrUpdate(model: self.viewModel.password!, with: PasswordObject.init)
+                    self.delegate.reloadPasswordList()
+                    self.configureNavBar()
+                }
+            }
+        }
     }
     
     func configureNavBar() {
@@ -124,6 +144,5 @@ class PasswordViewController: UITableViewController, UITextFieldDelegate, UIGest
             viewModel.isPasswordVisible = false
         }
         tableView.reloadData()
-
     }
 }

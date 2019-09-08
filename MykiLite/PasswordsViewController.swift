@@ -12,32 +12,32 @@ class PasswordsViewController: UITableViewController, AddPasswordDelegate, Passw
     func reloadPasswordList() {
         self.tableView.reloadData()
     }
-
-  var viewModel: PasswordsViewModel!
-
-  override func viewDidLoad() {
-    super.viewDidLoad()
-
-    viewModel = PasswordsViewModel()
-    configureNavBar()
-    configureView()
-  }
-
-  @objc func addPassword() {
-    let controller = AddPasswordViewController()
-    controller.delegate = self
-    self.navigationController?.pushViewController(controller, animated: true)
-  }
-
-  func configureNavBar() {
-    self.title = "Passwords"
-    self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addPassword))
-  }
-
-  func configureView() {
-    self.view.backgroundColor = .darkGray
-    self.tableView.separatorStyle = .none
-    self.tableView.register(PasswordCellView.self, forCellReuseIdentifier: "cell")
-  }
-
+    
+    var viewModel: PasswordsViewModel!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        viewModel = PasswordsViewModel()
+        configureNavBar()
+        configureView()
+    }
+    
+    @objc func addPassword() {
+        let controller = AddPasswordViewController()
+        controller.delegate = self
+        self.navigationController?.pushViewController(controller, animated: true)
+    }
+    
+    func configureNavBar() {
+        self.title = "Passwords"
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addPassword))
+    }
+    
+    func configureView() {
+        self.view.backgroundColor = .darkGray
+        self.tableView.separatorStyle = .none
+        self.tableView.register(PasswordCellView.self, forCellReuseIdentifier: "cell")
+    }
+    
 }

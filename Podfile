@@ -8,7 +8,6 @@ target 'MykiLite' do
   # Pods for MykiLite
 
 pod 'RealmSwift'
-pod 'SwiftyJSON'
 pod 'SDWebImage'
 
   target 'MykiLiteTests' do
